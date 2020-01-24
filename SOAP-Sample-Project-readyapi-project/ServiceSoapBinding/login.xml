@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation action="http://www.soapui.org/sample/login" name="login" bindingOperationName="login" inputName="" isOneWay="false" receivesAttachments="false" sendsAttachments="false" type="Request-Response" id="36df8917-7b0b-4bb6-af05-be174dc73b49" anonymous="optional" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+            <con:settings><con:setting id="36df8917-7b0b-4bb6-af05-be174dc73b49fileName">login</con:setting></con:settings>
+            
+        <con:call id="6421dd3a-5941-4203-8590-24c5fd24e958" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://127.0.0.1:8082/mockServiceSoapBinding</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sam="http://www.soapui.org/sample/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <sam:login>\r
+         <username>?</username>\r
+         <password>?</password>\r
+      </sam:login>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.soapui.org/sample/login"/><con:wsrmConfig version="1.2"/><con:environmentSpec><con:entry environmentId="9db09756-be65-4cca-9b51-3c36b667ea3d"><con:authProfile>No Authorization</con:authProfile></con:entry></con:environmentSpec></con:call><con:environmentSpec><con:entry environmentId="9db09756-be65-4cca-9b51-3c36b667ea3d"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:operation>
